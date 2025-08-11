@@ -25,6 +25,18 @@ pip install torch realesrgan
 python converter.py input.png output.jpg
 ```
 
+## Simple GUI
+
+A minimal Tkinter interface is provided for easy conversion without using the
+command line:
+
+```bash
+python ui.py
+```
+
+Select the input PNG and the desired output JPG path. The repository includes a
+`workspace/` directory that can be used to store your images.
+
 ## Running tests
 
 ```bash
